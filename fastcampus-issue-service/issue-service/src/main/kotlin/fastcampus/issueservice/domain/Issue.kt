@@ -1,7 +1,7 @@
 package fastcampus.issueservice.domain
 
 import fastcampus.issueservice.domain.enums.IssuePriority
-import fastcampus.issueservice.domain.enums.IssueStatue
+import fastcampus.issueservice.domain.enums.IssueStatus
 import fastcampus.issueservice.domain.enums.IssueType
 import javax.persistence.*
 
@@ -32,6 +32,6 @@ class Issue (
 
     @Column
     @Enumerated(EnumType.STRING)
-    var status: IssueStatue,
+    var status: IssueStatus,
 
     ) : BaseEntity()

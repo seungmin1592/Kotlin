@@ -1,6 +1,6 @@
 package fastcampus.issueservice.domain.enums
 
-enum class IssueStatue {
+enum class IssueStatus {
 
     TODO, IN_PROGRESS, RESOLVED;
 
